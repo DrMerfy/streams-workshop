@@ -15,7 +15,7 @@ A Duplex stream is essentially a stream that is both Readable and Writable. It i
 
 ![Duplex stream schema](./images/duplex-stream-schema.png)
 
-**Transform** streams are a special class of Duplex streams in which the data that is written in one end of the stream is internally modified so that it can be read in its new form on the other end. This essentially a way to be able to do in flight transformations and it's very useful in multiple cases:
+**Transform** streams are a special class of Duplex streams in which the data that is written in one end of the stream is internally modified so that it can be read in its new form on the other end. This is essentially a way to be able to do in flight transformations and it's very useful in multiple cases:
 
  - Compression / Decompression
  - Encryption / Decryption
